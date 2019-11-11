@@ -1,0 +1,25 @@
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: $baseColor;
+    position: relative;
+    display: grid;
+}
+
+.logo {
+    left: 0;
+    height: 10vh;
+}
+
+.headerGrid {
+    grid-template-columns: 1fr 1fr auto;
+    display: grid;
+}
+
+.navCell1, .navCell2 {
+    justify-self: left;
+}
+
+.navCell3 {
+    justify-self: end;
+}

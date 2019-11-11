@@ -8,4 +8,34 @@
 
 /* Colors */
 /* Fonts */
+header {
+  width: 100%;
+  height: 10vh;
+  background-color: #49A078;
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+}
+
+.logo {
+  left: 0;
+  height: 10vh;
+}
+
+.headerGrid {
+  -ms-grid-columns: 1fr 1fr auto;
+      grid-template-columns: 1fr 1fr auto;
+  display: -ms-grid;
+  display: grid;
+}
+
+.navCell1, .navCell2 {
+  -ms-grid-column-align: left;
+      justify-self: left;
+}
+
+.navCell3 {
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,13 +1,14 @@
 {
     "version": 3,
-    "mappings": "AAKA,OAAO,CAAC,6EAAI;AGLZ,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACzB;;AEJD,YAAY;AAUZ,WAAW",
+    "mappings": "AAIA,OAAO,CAAC,6EAAI;AGJZ,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACzB;;ACJD,YAAY;AAUZ,WAAW;ACVX,AAAA,MAAM,CAAC;EACH,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,gBAAgB,EDDR,OAAO;ECEf,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,IAAI;CAChB;;AAED,AAAA,KAAK,CAAC;EACF,IAAI,EAAE,CAAC;EACP,MAAM,EAAE,IAAI;CACf;;AAED,AAAA,WAAW,CAAC;EACR,qBAAqB,EAAE,YAAY;EACnC,OAAO,EAAE,IAAI;CAChB;;AAED,AAAA,SAAS,EAAE,SAAS,CAAC;EACjB,YAAY,EAAE,IAAI;CACrB;;AAED,AAAA,SAAS,CAAC;EACN,YAAY,EAAE,GAAG;CACpB",
     "sources": [
         "style.scss",
         "_functions.scss",
         "_mixins.scss",
         "_reset.scss",
-        "_typography.scss",
-        "_variables.scss"
+        "_variables.scss",
+        "_header.scss",
+        "_footer.scss"
     ],
     "names": [],
     "file": "style.css"

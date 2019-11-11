@@ -4,22 +4,43 @@ header {
     background-color: $baseColor;
     position: relative;
     display: grid;
+    font-family: $fontHeadline;
+    font-size: $fontSizeSmall;
+    color: $fontColorWhite;
 }
 
 .logo {
     left: 0;
-    height: 10vh;
+    height: 6vh;
+    margin-left: 15px;
 }
 
 .headerGrid {
-    grid-template-columns: 1fr 1fr auto;
+    grid-template-columns: auto 10% 10% 1fr;
     display: grid;
+    align-items: center;
+    
 }
 
-.navCell1, .navCell2 {
+.navCell1 {
     justify-self: left;
 }
 
+.navCell2 {
+    justify-self: left;
+    margin-left: 15px;
+}
+
 .navCell3 {
+    justify-self: left;
+}
+
+.navCell4 {
     justify-self: end;
+    margin-right: 15px;
+}
+
+.search {
+    border: 1px solid $baseColor;
+    border-radius: 3px;
 }

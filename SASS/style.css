@@ -8,4 +8,27 @@
 
 /* Colors */
 /* Fonts */
+.footer {
+  width: 100%;
+  height: 15vh;
+  background-color: #49A078;
+}
+
+.footerLeft {
+  float: left;
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.footerRight {
+  float: right;
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  color: #ffffff;
+  margin-top: 40px;
+  margin-right: 10px;
+}
 /*# sourceMappingURL=style.css.map */

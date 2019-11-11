@@ -1,0 +1,23 @@
+.footer {
+  width: 100%;
+  height: 15vh;
+  background-color: $baseColor;
+}
+
+.footerLeft {
+  float: left;
+  font-family: $fontHeadline;
+  font-size: $fontSizeSmall;
+  color: $fontColorWhite;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.footerRight {
+  float: right;
+  font-family: $fontHeadline;
+  font-size: $fontSizeSmall;
+  color: $fontColorWhite;
+  margin-top: 40px;
+  margin-right: 10px;
+}

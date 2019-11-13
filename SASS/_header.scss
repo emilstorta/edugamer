@@ -16,10 +16,9 @@ header {
 }
 
 .headerGrid {
-    grid-template-columns: auto 10% 10% 1fr;
+    grid-template-columns: 10% 10% 10% 67% 10%;
     display: grid;
     align-items: center;
-    
 }
 
 .navCell1 {
@@ -37,10 +36,23 @@ header {
 
 .navCell4 {
     justify-self: end;
-    margin-right: 15px;
+    margin-right: 10px;
+}
+
+.navCell5 {
+    justify-self: end;
 }
 
 .search {
     border: 1px solid $baseColor;
     border-radius: 3px;
+}
+
+.searchSize {
+    width: 15%;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
 }

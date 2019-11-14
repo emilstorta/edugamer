@@ -19,3 +19,9 @@ p {
 .whiteText {
     color: $fontColorWhite;
 }
+
+.breadcrumbs {
+    font-size: $fontSizeVSmall;
+    font-family: $fontParagraph;
+    color: $fontColor;
+}

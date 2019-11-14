@@ -4,10 +4,24 @@
 .wrapper {
   width: 90%;
   margin: auto;
+  text-align: center;
 }
 
 .loginbox {
-  width: 240px;
+  width: 150px;
   text-align: left;
   margin: auto;
+  margin-top: 20vh;
+}
+
+#uniMargin {
+  margin-bottom: 0.5em;
+}
+
+#passwordMargin {
+  margin-top: 0.5em;
+}
+
+#btnMargin {
+  margin-top: 0.5em;
 }

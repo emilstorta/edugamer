@@ -1,19 +1,25 @@
 h1 {
-    font-size: $fontSizeLarge;
-    font-family: $fontHeadline;
-    color: $fontColor;
+  font-size: $fontSizeLarge;
+  font-family: $fontHeadline;
+  color: $fontColor;
 }
 
 h2 {
-    font-size: $fontSizeLarge;
-    font-family: $fontHeadline;
-    color: $fontColor;
+  font-size: $fontSizeLarge;
+  font-family: $fontHeadline;
+  color: $fontColor;
+}
+
+h3 {
+  font-size: $fontSizeSmall;
+  font-family: $fontHeadline;
+  color: $fontColor;
 }
 
 p {
-    font-size: $fontSizeSmall;
-    font-family: $fontParagraph;
-    color: $fontColor;
+  font-size: $fontSizeSmall;
+  font-family: $fontParagraph;
+  color: $fontColor;
 }
 
 .whiteText {

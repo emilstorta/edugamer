@@ -1,0 +1,21 @@
+h1 {
+    font-size: $fontSizeLarge;
+    font-family: $fontHeadline;
+    color: $fontColor;
+}
+
+h2 {
+    font-size: $fontSizeLarge;
+    font-family: $fontHeadline;
+    color: $fontColor;
+}
+
+p {
+    font-size: $fontSizeSmall;
+    font-family: $fontParagraph;
+    color: $fontColor;
+}
+
+.whiteText {
+    color: $fontColorWhite;
+}

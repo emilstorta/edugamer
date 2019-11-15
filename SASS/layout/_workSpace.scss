@@ -2,7 +2,7 @@
     display: grid;
     width: 90%;
     height: 80vh;
-    margin: 25vh auto 10vh auto;
+    margin: 10vh auto 10vh auto;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 15px;
@@ -41,5 +41,9 @@
     grid-row-start: 2;
     grid-row-end: 4;
     align-self: center;
+}
+
+.marginTop {
+    margin-top: 25vh;
 }
 

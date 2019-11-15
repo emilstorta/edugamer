@@ -14,7 +14,7 @@ header {
 }
 
 .headerGrid {
-    grid-template-columns: 15% 10% 10% 63% 10%;
+    grid-template-columns: 15% 10% 10% 62% 2%;
     display: grid;
     align-items: center;
 }
@@ -45,7 +45,7 @@ header {
 }
 
 .searchSize {
-    width: 15%;
+    width: 100%;
 }
 
 a:visited {

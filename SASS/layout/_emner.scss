@@ -1,13 +1,83 @@
 .workSpace2 {
     display: grid;
-    width: 90%;
+    width: 80%;
     height: 80vh;
     margin: 10vh auto 20vh auto;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 1fr 1fr;
     grid-gap: 15px;
 }
+
 .imgSizeEmne {
-    width: 100%;
+    width: 100%; 
+    
 }
 
+.emneCell1, .emneCell2, .emneCell3, .emneCell4, .emneCell5, .emneCell6 {
+    position: relative;
+}
+
+.opacityContainer {
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(217, 215, 215, 0.7);
+    position: absolute;
+    bottom: 4px;
+    text-align: center; 
+}
+
+.centerText {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.progressBar1 {
+    position: absolute;
+    height: 2vh;
+    width: 100%;
+    background-color: blue;
+    bottom: 0;
+}
+
+.progressBar2 {
+    position: absolute;
+    height: 2vh;
+    width: 100%;
+    background-color: green;
+    bottom: 0;
+}
+
+.progressBar3 {
+    position: absolute;
+    height: 2vh;
+    width: 100%;
+    background-color: yellow;
+    bottom: 0;
+}
+
+.progressBar4 {
+    position: absolute;
+    height: 2vh;
+    width: 100%;
+    background-color: red;
+    bottom: -4px;
+}
+
+.progressBar5 {
+    position: absolute;
+    height: 2vh;
+    width: 100%;
+    background-color: orange;
+    bottom: 0;
+}
+
+.progressBar6 {
+    position: absolute;
+    height: 2vh;
+    width: 100%;
+    background-color: slateblue;
+    bottom: 0;
+}

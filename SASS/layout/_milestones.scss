@@ -1,0 +1,9 @@
+.mileGrid {
+  display: grid;
+  width: 90%;
+  height: 80vh;
+  margin: 10vh auto 10vh auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 15px;
+}

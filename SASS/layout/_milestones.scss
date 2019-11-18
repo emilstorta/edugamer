@@ -7,3 +7,59 @@
   grid-template-rows: 1fr 1fr;
   grid-gap: 15px;
 }
+
+.mileCell2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.mileDone {
+  width: 100%;
+  height: 80%;
+  border-style: solid;
+  border-color: #c8c8c8;
+}
+
+.mileTask {
+  width: 100%;
+  height: 80%;
+  border-style: solid;
+  border-color: #c8c8c8;
+}
+
+.mileAvatar {
+  width: 100%;
+  height: 90%;
+  border-style: solid;
+  border-color: #c8c8c8;
+  text-align: center;
+}
+
+#avatarMile {
+  margin-top: 20%;
+}
+
+.unlocked {
+  width: 64px;
+}
+
+.mileAch {
+  display: grid;
+  width: 90%;
+  height: 80%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  text-align: center;
+  border-style: solid;
+  border-color: #c8c8c8;
+}
+
+.innerAch {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  border-style: solid;
+  border-color: #c8c8c8;
+}

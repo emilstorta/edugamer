@@ -23,16 +23,21 @@ p {
 }
 
 .whiteText {
-    color: $fontColorWhite;
+  color: $fontColorWhite;
 }
 
 .breadcrumbs {
-    font-size: $fontSizeVSmall;
-    font-family: $fontParagraph;
-    color: $fontColor;
+  font-size: $fontSizeVSmall;
+  font-family: $fontParagraph;
+  color: $fontColor;
 }
 
 .overskrift {
   margin-left: 3%;
   padding-top: 3.5vh;
+}
+
+.underoverskrift {
+  margin-left: 3%;
+  margin-top: 1em;
 }

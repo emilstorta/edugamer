@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    height: 10vh;
+    height: 15vh;
     background-color: $baseColor;
     position: relative;
     display: grid;
@@ -11,10 +11,11 @@ header {
 
 .logo {
     height: 10vh;
+    
 }
 
 .headerGrid {
-    grid-template-columns: 15% 10% 10% 62% 2%;
+    grid-template-columns: 18% 10% 10% 58% 2%;
     display: grid;
     align-items: center;
 }

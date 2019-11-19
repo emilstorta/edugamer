@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Startside</title>
     <link rel="stylesheet" href="/SASS/style.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
 </head>
 <body>
     <header>
@@ -18,15 +19,12 @@
             <article class="navCell5"><img src="/pictures/Search2.png" alt="search2" class="searchSize"></article>
     </header>
 
-    <article class="breadContainer">
-            <a href="main.html">
-            <p class="breadcrumbs">Forside <i class="arrow right"></i></p>
-            </a>
-            
-            <a href="kristendom.html">
-            <p class="breadcrumbs">Kristendom</p>
-            </a>
-    </article>
+    <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-white text-light">
+              <li class="breadcrumb-item"><a href="/pages/main.html" class="text-body">Forside</a></li>
+              <li class="breadcrumb-item active text-body" aria-current="page">Kristendomskundskab</li>
+            </ol>
+          </nav>
 
     <img src="/pictures/avatarplaceholder.png" alt="Din avatar" class="avatar">
     

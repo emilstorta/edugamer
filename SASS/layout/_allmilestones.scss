@@ -1,0 +1,77 @@
+.allmileGrid {
+    display: grid;
+    width: 90%;
+    height: 60vh;
+    margin: 10vh auto 10vh auto;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 15px;
+  }
+  
+  
+  .mileDone {
+    width: 100%;
+    height: 80%;
+    border-style: solid;
+    border-color: #c8c8c8;
+  }
+  
+  .mileTask {
+    width: 100%;
+    height: 80%;
+    border-style: solid;
+    border-color: #c8c8c8;
+  }
+  
+  .allmileAvatar {
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-color: #c8c8c8;
+    text-align: center;
+  }
+  
+  
+  .unlocked {
+    width: 64px;
+  }
+  
+  .mileAch {
+    display: grid;
+    width: 90%;
+    height: 90%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+    text-align: center;
+    border-style: solid;
+    border-color: #c8c8c8;
+  }
+  
+  .innerAch {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+  }
+  
+  .achImg {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+  }
+  
+  .achText {
+    margin-top: 20px;
+  }
+  
+  .achBtn {
+    text-align: center;
+    width: auto;
+    padding: auto;
+    margin: auto;
+  }
+  
+  #avatarAllMile {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }

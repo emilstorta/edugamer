@@ -1,0 +1,44 @@
+.textWorkSpace {
+    display: grid;
+    width: 90%;
+    margin: 10vh auto 10vh auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.textCell1 {
+    background-color: blue;
+    grid-column: span 2;
+    
+}
+
+.textCell2 {
+    background-color: green;
+    
+}
+
+.textCell3 {
+    background-color: red;
+    grid-column: span 2;
+}
+
+.textCell4 {
+    background-color: pink;
+}
+
+.textCell5 {
+    background-color: yellow;
+}
+
+
+
+.introVideo {
+    width: 100%;
+}
+
+.textFont {
+    font-size: $fontSizeMSmall;
+    text-decoration: underline;
+}
+

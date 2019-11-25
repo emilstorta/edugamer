@@ -3,42 +3,63 @@
     width: 90%;
     margin: 10vh auto 10vh auto;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto;
     grid-gap: 15px;
 }
 
 .textCell1 {
-    background-color: blue;
     grid-column: span 2;
-    
+    display: grid;
+    margin-bottom: 2vh;
 }
 
 .textCell2 {
-    background-color: green;
-    
+    margin-bottom: 2vh;
 }
 
 .textCell3 {
-    background-color: red;
+    margin-bottom: 2vh;
     grid-column: span 2;
 }
 
 .textCell4 {
-    background-color: pink;
+    margin-bottom: 2vh;
 }
 
 .textCell5 {
-    background-color: yellow;
+    margin-bottom: 2vh;
+    display: grid;
 }
 
 
 
 .introVideo {
-    width: 100%;
+    justify-self: center;
+    width: 70%;
+    height: 90vh;
+    border: 2px black solid;
 }
 
 .textFont {
     font-size: $fontSizeMSmall;
     text-decoration: underline;
+}
+.imgSizeLarge {
+    width: 60%;
+    justify-self: center;
+}
+
+.formClass {
+    margin-top: 5vh;
+}
+
+.inputBox {
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    width: 90%; 
+}
+
+.formText {
+    width: 90%;
 }
 

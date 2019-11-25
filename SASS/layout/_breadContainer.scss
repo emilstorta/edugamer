@@ -1,22 +1,25 @@
-.breadContainer {
-    width: 100%;
-    display: flex;
-    align-content: center;
+.breadcrumb {
+  font-family: $fontHeadline;
+  padding-top: 4vh;
+  padding-left: 4vh;
+  list-style-type: none;
 }
 
-.breadcrumbs {
-    margin-top: 2vh;
-    margin-left: 2vh;
+ul.breadcrumb li{
+  display: inline;
 }
 
-i {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-  }
+ul.breadcrumb li+li::before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
 
-  .right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-  }
+ul.breadcrumb li a {
+  color: $baseColor;
+}
+
+ul.breadcrumb li a:hover {
+  color: $baseColor;
+  text-decoration: underline;
+}

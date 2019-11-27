@@ -22,6 +22,7 @@ if (!isset($_SESSION['loggedin'])) {
 
 <body>
     <header>
+        
         <article class="headerGrid">
             <article class="navCell1"><a href="home.php"><img src="pictures/Logo.png" alt="Adaptics Logo"
                         class="logo"></a></article>
@@ -30,9 +31,12 @@ if (!isset($_SESSION['loggedin'])) {
                 </a></article>
             <article class="navCell3"><a href="milestones.php">
                     <p class="whiteText">Milepæle</p>
+                    
                 </a></article>
             <article class="navCell4"><input type="text" class="search" placeholder="Søg"></article>
             <article class="navCell5"><img src="pictures/Search2.png" alt="search2" class="searchSize"></article>
+            <article class="navCell6"><a href="logout.php"><p class="whiteText">Log ud</p></a></article>
+            
         </article>
     </header>
 
@@ -40,6 +44,7 @@ if (!isset($_SESSION['loggedin'])) {
     <ul class="breadcrumb">
         <li class="breadcrumb-item active" aria-current="page">Forside</li>
     </ul>
+    
 
 
 

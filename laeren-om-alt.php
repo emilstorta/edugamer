@@ -20,14 +20,15 @@ if (!isset($_SESSION['loggedin'])) {
     <link rel="stylesheet" href="SASS/style.css">
 </head>
 <body>
+    
     <header>
-        
         <article class="headerGrid">
             <article class="navCell1"><a href="home.php"><img src="pictures/Logo.png" alt="Adaptics Logo" class="logo"></a></article>
             <article class="navCell2"><a href="home.php"><p class="whiteText">Forside</p></a></article>
             <article class="navCell3"><a href="milestones.php"><p class="whiteText">Milepæle</p></a></article>
             <article class="navCell4"><input type="text" class="search" placeholder="Søg"></article>
             <article class="navCell5"><img src="pictures/Search2.png" alt="search2" class="searchSize"></article>
+            <article class="navCell6"><a href="logout.php"><p class="whiteText">Log ud</p></a></article>
     </header>
 
     <ul class="breadcrumb">
@@ -75,7 +76,9 @@ if (!isset($_SESSION['loggedin'])) {
                     <p class="formText">Hvorfor mener teksten blandt andet, at mennesker vælger at være troende?</p>
                     <input type="text" placeholder="Træk dit svar ind her..." class="inputBox">
                     
+                    
             </form>
+            <input type="submit">
             <p class="textFont">Sidder du fast? Klik her for at få hjælp</p>
         </article>
 

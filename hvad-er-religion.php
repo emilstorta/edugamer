@@ -29,6 +29,7 @@ if (!isset($_SESSION['loggedin'])) {
             <article class="navCell3"><a href="milestones.php"><p class="whiteText">Milepæle</p></a></article>
             <article class="navCell4"><input type="text" class="search" placeholder="Søg"></article>
             <article class="navCell5"><img src="pictures/Search2.png" alt="search2" class="searchSize"></article>
+            <article class="navCell6"><a href="logout.php"><p class="whiteText">Log ud</p></a></article>
     </header>
 
     <ul class="breadcrumb">
@@ -38,6 +39,8 @@ if (!isset($_SESSION['loggedin'])) {
     </ul>
 
     <h1 class="overskrift">Tester om "Hvad er religion"</h1>
+
+    <input type="text" placeholder="Søg" class="marginLeft"> <input type="submit">
 
     <img src="pictures/avatarplaceholder.png" alt="Din avatar" class="avatar">
     

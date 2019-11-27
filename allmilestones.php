@@ -36,6 +36,7 @@ if (!isset($_SESSION['loggedin'])) {
                 </a></article>
             <article class="navCell4"><input type="text" class="search" placeholder="Søg"></article>
             <article class="navCell5"><img src="pictures/Search2.png" alt="search2" class="searchSize"></article>
+            <article class="navCell6"><a href="logout.php"><p class="whiteText">Log ud</p></a></article>
     </header>
 
     <ul class="breadcrumb">

@@ -6,27 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Milepæle</title>
-    <link rel="stylesheet" href="/SASS/style.css">
+    <link rel="stylesheet" href="SASS/style.css">
 </head>
 
 <body>
     <header>
 
         <article class="headerGrid">
-            <article class="navCell1"><a href="main.html"><img src="/pictures/Logo.png" alt="Adaptics Logo"
+            <article class="navCell1"><a href="home.php"><img src="pictures/Logo.png" alt="Adaptics Logo"
                         class="logo"></a></article>
-            <article class="navCell2"><a href="main.html">
+            <article class="navCell2"><a href="home.php">
                     <p class="whiteText">Forside</p>
                 </a></article>
-            <article class="navCell3"><a href="/pages/milestones.html">
+            <article class="navCell3"><a href="milestones.php">
                     <p class="whiteText">Milepæle</p>
                 </a></article>
             <article class="navCell4"><input type="text" class="search" placeholder="Søg"></article>
-            <article class="navCell5"><img src="/pictures/Search2.png" alt="search2" class="searchSize"></article>
+            <article class="navCell5"><img src="pictures/Search2.png" alt="search2" class="searchSize"></article>
     </header>
 
         <ul class="breadcrumb">
-            <li><a href="/pages/main.html" >Forside</a></li>
+            <li><a href="home.php" >Forside</a></li>
             <li>Milepæle</li>
         </ul>
 
@@ -40,23 +40,23 @@
         <article class="mileCell1">
             <h3>Nyligt optjent</h3><br>
             <article class="mileAch">
-                <article class="innerAch"><img src="/pictures/unlocked.png" alt="oplåst" class="achImg">
+                <article class="innerAch"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
                     <br>
                     <p class="achText">Religions emne gennemført</p>
                 </article>
-                <article class="innerAch"><img src="/pictures/unlocked.png" alt="oplåst" class="achImg">
+                <article class="innerAch"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
                     <br>
                     <p class="achText">Religions emne gennemført</p>
                 </article>
-                <article class="innerAch"><img src="/pictures/unlocked.png" alt="oplåst" class="achImg">
+                <article class="innerAch"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
                     <br>
                     <p class="achText">Religions emne gennemført</p>
                 </article>
-                <article class="innerAch"><img src="/pictures/unlocked.png" alt="oplåst" class="achImg">
+                <article class="innerAch"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
                     <br>
                     <p class="achText">Religions emne gennemført</p>
                 </article>
-                <article class="innerAch"><img src="/pictures/unlocked.png" alt="oplåst" class="achImg">
+                <article class="innerAch"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
                     <br>
                     <p class="achText">Religions emne gennemført</p>
                 </article>
@@ -65,38 +65,38 @@
         <article class="mileCell2">
             <h3>Din Avatar</h3><br>
             <article class="mileAvatar">
-                <img src="/pictures/avatarplaceholder.png" alt="Avatar" id="avatarMile">
+                <img src="pictures/avatarplaceholder.png" alt="Avatar" id="avatarMile">
             </article>
         </article>
         <article class="mileCell3">
             <h3>Du er der næsten!</h3><br>
             <article class="mileAch">
-                <article class="innerAch"> <img src="/pictures/locked.png" alt="låst" class="achImg">
+                <article class="innerAch"> <img src="pictures/locked.png" alt="låst" class="achImg">
                     <br>
                     <p class="achText">Historie emne gennemført</p>
                 </article>
-                <article class="innerAch"> <img src="/pictures/locked.png" alt="låst" class="achImg">
+                <article class="innerAch"> <img src="pictures/locked.png" alt="låst" class="achImg">
                     <br>
                     <p class="achText">Historie emne gennemført</p>
                 </article>
-                <article class="innerAch"> <img src="/pictures/locked.png" alt="låst" class="achImg">
+                <article class="innerAch"> <img src="pictures/locked.png" alt="låst" class="achImg">
                     <br>
                     <p class="achText">Historie emne gennemført</p>
                 </article>
-                <article class="innerAch"> <img src="/pictures/locked.png" alt="låst" class="achImg">
+                <article class="innerAch"> <img src="pictures/locked.png" alt="låst" class="achImg">
                     <br>
                     <p class="achText">Historie emne gennemført</p>
                 </article>
-                <article class="innerAch"> <img src="/pictures/locked.png" alt="låst" class="achImg">
+                <article class="innerAch"> <img src="pictures/locked.png" alt="låst" class="achImg">
                     <br>
                     <p class="achText">Historie emne gennemført</p>
                 </article>
             </article>
         </article>
-        <a class="btnOne achBtn" href="/pages/allmilestones.html">
+        <a class="btnOne achBtn" href="allmilestones.php">
             <button class="btnOne achBtn">Se alle dine Achievements</button>
         </a>
-        <a class="btnOne achBtn" href="/pages/avatarStyle.html">
+        <a class="btnOne achBtn" href="avatarStyle.php">
             <button class="btnOne achBtn" type="submit" onclick="">Style din Avatar</button>
         </a>
 

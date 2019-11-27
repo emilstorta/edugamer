@@ -24,6 +24,19 @@
                     <h1 id="uniMargin">UNI&bull;Login</h1>
                     <article class="loginform">
                         <h3>Brugernavn</h3>
+                        <form action="authenicate.php" method="POST">
+                            
+                            <label for="username"></label>
+                            <input type="text" name="username" placeholder="Brugernavn" id="username" required>
+
+                            <label for="password"></label>
+                            <input type="password" name="password" placeholder="Kodeord" id="password" required>
+
+                            <input type="submit" value="login">
+
+                        </form>
+
+<!--                        
                         <input type="text" class="loginInput" placeholder="Skriv brugernavn..."></br>
                         <a href="" class="loginlost" id="loginglemt">Glemt brugernavn</a>
                         <h3 id="passwordMargin">Adgangskode</h3>
@@ -34,6 +47,8 @@
                 <form method="get" action="/pages/main.html">
                     <button class="btnOne" id="btnMargin" type="submit">Log ind</button>
                 </form>
+            
+            -->
             </article>
         </article>
     </article>

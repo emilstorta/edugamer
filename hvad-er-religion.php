@@ -19,6 +19,7 @@ if (!isset($_SESSION['loggedin'])) {
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Startside</title>
     <link rel="stylesheet" href="SASS/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
     <header>
@@ -44,7 +45,7 @@ if (!isset($_SESSION['loggedin'])) {
 
     <img src="pictures/avatarplaceholder.png" alt="Din avatar" class="avatar">
     
-    <section class="workSpace marginTop">
+    <section class="workSpace marginTop marginSide">
         <article class="mainCell">
 
             <a href="laeren-om-alt.php">

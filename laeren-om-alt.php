@@ -18,9 +18,10 @@ if (!isset($_SESSION['loggedin'])) {
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Startside</title>
     <link rel="stylesheet" href="SASS/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
-    
+    <div id="app">
     <header>
         <article class="headerGrid">
             <article class="navCell1"><a href="home.php"><img src="pictures/Logo.png" alt="Adaptics Logo" class="logo"></a></article>
@@ -40,8 +41,15 @@ if (!isset($_SESSION['loggedin'])) {
 
     <h1 class="overskrift">Læren om alt</h1>
 
-    <img src="pictures/avatarplaceholder.png" alt="Din avatar" class="avatar">
-    
+    <div id="app">
+
+    <article class="avatarTextBox">
+    <p class="avatarText"></p>
+    </article>
+    <img src="pictures/avatarplaceholder.png" alt="Din avatar" class="avatar" >
+
+    </div>
+
     <section class="textWorkSpace marginTop">
         <article class="textCell1">
            <iframe width="560" height="315" src="https://www.youtube.com/embed/6BQ_K-me8qM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="introVideo"></iframe>
@@ -54,7 +62,7 @@ if (!isset($_SESSION['loggedin'])) {
             
             Organisationen – sekulariseringens modsvar til religionens hellige skrift er kulturens kunstnere, filosoffer og terapeuter. Men de er isolerede. Sårbare. Deprimerede. De kollaborative, brandede, transnationale og disciplinerede religiøse organisationer lærer os, at man må stå sammen, hvis man skal ændre verden.<br><br>
             
-            Kunsten – hvor de kristne har bibelen, har vi Platon. Hvor muslimerne har Koranen, har vi Shakespeare. Hvor buddhisterne har mandalaen, har vi graffiti. Vi værner om kunst for kunstens egen skyld. Museer er vores nye kirker. Religionen belærer os om, hvorfor kunsten må være mere end det.<br><br>
+           <div id="drag_object" ref="drag_object" class="drag-object" draggable="true" @dragstart="dragstart_handler"> Kunsten – hvor de kristne har bibelen, har vi Platon. </div> Hvor muslimerne har Koranen, har vi Shakespeare. Hvor buddhisterne har mandalaen, har vi graffiti. Vi værner om kunst for kunstens egen skyld. Museer er vores nye kirker. Religionen belærer os om, hvorfor kunsten må være mere end det.<br><br>
             
             Troens kraft
             
@@ -72,13 +80,12 @@ if (!isset($_SESSION['loggedin'])) {
             
             <form method="GET" class="formClass">
                     <p class="formText">Hvad kan vi blandt andet lærer gennem religion?</p>
-                    <input type="text" placeholder="Træk dit svar ind her..." class="inputBox">
+                   <div id="drag_target" ref="drag_target" class="drag-target" @drop="drop_handler" @dragover="dragover_handler"></div>
                     <p class="formText">Hvorfor mener teksten blandt andet, at mennesker vælger at være troende?</p>
-                    <input type="text" placeholder="Træk dit svar ind her..." class="inputBox">
-                    
-                    
+                    <div id="drag_target2" ref="drag_target2" class="drag-target" @drop="drop_handler" @dragover="dragover_handler"></div>
             </form>
-            <input type="submit">
+            <a href=""> <input type="submit"></a>
+            
             <p class="textFont">Sidder du fast? Klik her for at få hjælp</p>
         </article>
 
@@ -93,5 +100,43 @@ if (!isset($_SESSION['loggedin'])) {
         <p class="footerLeft whiteText">Kontakt </br> Seebladsgade 2 </br> 5100 Odense C  </br> Tlf. 54 19 54 12 </p>
         <p class="footerRight whiteText"> &copy; 2019 Adaptics</p>
     </footer>
+</div>
+
+<script>
+        var app = new Vue({
+            el: "#app",
+            data: {
+
+            },
+            methods: {
+                dragstart_handler(ev) {
+                    // Add the target element's id to the data transfer object
+                    ev.dataTransfer.setData("elemid", ev.target.id);
+                    ev.dataTransfer.dropEffect = "move";
+                },
+                dragover_handler(ev) {
+                    ev.preventDefault();
+                },
+                drop_handler(ev) {
+                    ev.preventDefault();
+                    // Get the id of the target and add the moved element to the target's DOM
+                    var data = ev.dataTransfer.getData("elemid");
+                    ev.target.appendChild(document.getElementById(data));
+                    localStorage.setItem("droppedRef", "drag_object")
+                }
+            },
+            mounted() {
+                if (localStorage.getItem("droppedRef")) {
+                    this.$refs["drag_target"].appendChild(this.$refs[localStorage.getItem("droppedRef")])
+                }
+            }
+        })
+    </script>
+
+
+
+
+
+
 </body>
 </html>

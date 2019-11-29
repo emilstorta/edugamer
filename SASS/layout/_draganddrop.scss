@@ -1,0 +1,13 @@
+.drag-target {
+  width: 80%;
+  min-height: 4vh;
+  border: black solid 0.5px;
+  margin-top: 1vh;
+  margin-bottom: 4vh;
+  padding-left: 5px;
+  padding-top: 2px;
+}
+
+.drag-object {
+  display: inline-block;
+}

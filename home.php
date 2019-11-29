@@ -18,6 +18,7 @@ if (!isset($_SESSION['loggedin'])) {
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Startside</title>
     <link rel="stylesheet" href="SASS/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 
 <body>
@@ -44,9 +45,6 @@ if (!isset($_SESSION['loggedin'])) {
     <ul class="breadcrumb">
         <li class="breadcrumb-item active" aria-current="page">Forside</li>
     </ul>
-    
-
-
 
     <img src="pictures/avatarplaceholder.png" alt="Din avatar" class="avatar">
 

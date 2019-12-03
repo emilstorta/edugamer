@@ -34,7 +34,18 @@
 
                             <input type="submit" value="login">
 
+                        </form>
+
+                        <?php 
+                        if (isset($_GET['l'])) {
+                            if (($_GET['l']) == 'f') {
+                                echo "<p>Forkert brugernavn eller password</p>";
+                            }
+
+
+                        }
                         
+                        ?>
 
 <!--                        
                         <input type="text" class="loginInput" placeholder="Skriv brugernavn..."></br>

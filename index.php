@@ -14,7 +14,7 @@
         <article id="content3rap">
             <header>
                 <article class="headerGrid">
-                    <article class="navCell1"><a href="index.html"><img src="pictures/Logo.png" alt="Adaptics Logo"
+                    <article class="navCell1"><a href="index.php"><img src="pictures/Logo.png" alt="Adaptics Logo"
                                 class="logo"></a>
                     </article>
                 </article>
@@ -34,7 +34,7 @@
 
                             <input type="submit" value="login">
 
-                        </form>
+                        
 
 <!--                        
                         <input type="text" class="loginInput" placeholder="Skriv brugernavn..."></br>

@@ -32,11 +32,15 @@ if ($stmt->num_rows > 0) {
         header('Location: home.php');
     } 
     else {
-		echo 'Incorrect password!';
+        echo 'Incorrect password!';
+        header("Location: index.php?l=f");
 	}
 } else {
 	echo 'Incorrect username!';
 }
 
 $stmt->close();
+
+
+
 ?>

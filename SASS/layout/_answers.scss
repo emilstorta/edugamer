@@ -1,0 +1,36 @@
+.ansGrid {
+    display: grid;
+    width: 90%;
+    height: 60vh;
+    margin: 10vh auto 10vh auto;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 15px;
+  }
+  
+  
+  .ansinnerGrid {
+    display: grid;
+    width: 90%;
+    height: 90%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    text-align: center;
+    border-style: solid;
+    border-color: #c8c8c8;
+  }
+  
+  .ansInner {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+  }
+  
+  .achBtn {
+    text-align: center;
+    width: auto;
+    padding: auto;
+    margin: auto;
+  }
+  

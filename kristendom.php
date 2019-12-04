@@ -94,7 +94,7 @@ if (!isset($_SESSION['loggedin'])) {
     
     </section>
         
-
+<div class="clearfix">&nbsp;</div>
 
 
 

@@ -39,25 +39,47 @@
     <section class="ansGrid">
         <article class="ansCell1">
             <h3>Klassens svar - Hvad kan vi blandt andet lære om religion?</h3><br>
-            <article class="ansinnerGrid">
-                <article class="ansInner">
-                <p id="ansDrag">awdadadawd</p>
+            <article class="ansinnerGrid" id="pull" ref="drag_target">
+                <article class="ansInner" >
+                
                 </article>
             </article>
         </article>
-        <article class="ansCell1">
-            <h3>Klassens svar - Hvorfor mener teksten blandt andet, at mennesker vælger at være troende</h3><br>
+        <article class="ansCell1 margin-top">
+            <h3 class="margin-top">Klassens svar - Hvorfor mener teksten blandt andet, at mennesker vælger at være troende</h3><br>
             <article class="ansinnerGrid">
                 <article class="ansInner">
-                <p id="ansDrag">awdadadawd</p>
+                <p id="ansDrag" id="pull" ref="drag_target2"></p>
                 </article>
             </article>
         </article>
     </section>
+
+
     <footer class="footer">
         <p class="footerLeft whiteText">Kontakt </br> Seebladsgade 2 </br> 5100 Odense C </br> Tlf. 54 19 54 12 </p>
         <p class="footerRight whiteText"> &copy; 2019 Adaptics</p>
     </footer>
+
+
+<script>
+        var pull = new Vue({
+            el: "#pull",
+            data: {
+
+            },
+            mounted() {
+            if (localStorage.getItem("droppedRef")) {
+                console.log(localStorage.getItem("droppedRef"))
+                this.$refs["drag_target"].innerText = localStorage.getItem("droppedRef");
+                }
+            }
+            
+        })
+    </script>
+
+
+
 </body>
 
 </html>

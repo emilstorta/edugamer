@@ -84,7 +84,7 @@ if (!isset($_SESSION['loggedin'])) {
                     <p class="formText">Hvorfor mener teksten blandt andet, at mennesker vælger at være troende?</p>
                     <div id="drag_target2" ref="drag_target2" class="drag-target" @drop="drop_handler" @dragover="dragover_handler"></div>
             </form>
-            <a href=""> <input type="submit"></a>
+            <a href="answers.php"> <input type="submit"></a>
             
             <p class="textFont">Sidder du fast? Klik her for at få hjælp</p>
         </article>
@@ -111,7 +111,8 @@ if (!isset($_SESSION['loggedin'])) {
             methods: {
                 dragstart_handler(ev) {
                     // Add the target element's id to the data transfer object
-                    ev.dataTransfer.setData("elemid", ev.target.id);
+                  //  ev.dataTransfer.setData("elemid", ev.target.id);
+                  ev.dataTransfer.setData("text", ev.target.innerText);
                     ev.dataTransfer.dropEffect = "move";
                 },
                 dragover_handler(ev) {
@@ -120,14 +121,14 @@ if (!isset($_SESSION['loggedin'])) {
                 drop_handler(ev) {
                     ev.preventDefault();
                     // Get the id of the target and add the moved element to the target's DOM
-                    var data = ev.dataTransfer.getData("elemid");
-                    ev.target.appendChild(document.getElementById(data));
-                    localStorage.setItem("droppedRef", "drag_object")
+                    var data = ev.dataTransfer.getData("text");
+                    ev.target.innerText = data;
+                    localStorage.setItem("droppedRef", data)
                 }
             },
             mounted() {
                 if (localStorage.getItem("droppedRef")) {
-                    this.$refs["drag_target"].appendChild(this.$refs[localStorage.getItem("droppedRef")])
+                    this.$refs["drag_target"].innerText = localStorage.getItem("droppedRef")
                 }
             }
         })

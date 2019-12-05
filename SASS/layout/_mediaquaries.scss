@@ -54,9 +54,17 @@
 @media only screen and (max-width: 992px) {
   .headerGrid {
     grid-template-columns: 25% 10% 10% 40% 2% 8%;
-    display: grid;
+    display: none;
     align-items: center;
   }
+
+  
+
+
+
+
+
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

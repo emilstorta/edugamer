@@ -56,3 +56,77 @@ a:visited {
   text-decoration: none;
   color: #ffffff;
 }
+
+.mobile-menu {
+  position: relative;
+  background-color: $baseColor;
+  width:100%;
+  z-index: 3;
+}
+
+.mobile-menu ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  overflow: hidden;
+  background-color: $baseColor;
+  font-family: $fontHeadline;
+}
+
+.mobile-menu ul a {
+  display: block;
+  padding: 20px;
+  border: 1px solid #aaa;
+  text-decoration: none;
+}
+
+.mobile-menu ul a:hover {
+  text-decoration: underline;
+}
+
+.mobile-menu .mobileLogo {
+  float: left;
+  display: block;
+  width: 200px;
+}
+
+.mobile-menu .menu{
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+.mobile-menu .menu-icon{
+  outline: 1px solid red($color: #000000);
+  padding: 28px 20px;
+  position: relative;
+}
+
+.mobile-menu .menu-icon .nav-icon {
+  background: #fff;
+  display: block;
+  height: 2px;
+  width: 18px;
+  position: relative;
+  transition: background .2s ease-out;
+}
+
+.mobile-menu .menu-icon .nav-icon:before {
+  background: #fff;
+  content: "";
+  display:block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 5px;
+}
+
+.mobile-menu .menu-icon .nav-icon:after {
+  background: #fff;
+  content: "";
+  display:block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: -5px;
+}

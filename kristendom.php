@@ -93,8 +93,6 @@ if (!isset($_SESSION['loggedin'])) {
         </article>
     
     </section>
-        
-<div class="clearfix">&nbsp;</div>
 
 
 

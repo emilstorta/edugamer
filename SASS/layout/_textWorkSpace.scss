@@ -1,65 +1,68 @@
 .textWorkSpace {
-    display: grid;
-    width: 90%;
-    margin: 10vh auto 10vh auto;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto auto auto;
-    grid-gap: 15px;
+  display: grid;
+  width: 90%;
+  margin: 10vh auto 10vh auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto;
+  grid-gap: 15px;
 }
 
 .textCell1 {
-    grid-column: span 2;
-    display: grid;
-    margin-bottom: 2vh;
+  grid-column: span 2;
+  display: grid;
+  margin-bottom: 2vh;
 }
 
 .textCell2 {
-    margin-bottom: 2vh;
+  margin-bottom: 2vh;
 }
 
 .textCell3 {
-    margin-bottom: 2vh;
-    grid-column: span 2;
+  margin-bottom: 2vh;
+  grid-column: span 2;
 }
 
 .textCell4 {
-    margin-bottom: 2vh;
+  margin-bottom: 2vh;
 }
 
 .textCell5 {
-    margin-bottom: 2vh;
-    display: grid;
+  margin-bottom: 2vh;
+  display: grid;
 }
 
-
-
 .introVideo {
-    justify-self: center;
-    width: 70%;
-    height: 90vh;
-    border: 2px black solid;
+  justify-self: center;
+  width: 70%;
+  height: 90vh;
+  border: 2px black solid;
 }
 
 .textFont {
-    font-size: $fontSizeMSmall;
-    text-decoration: underline;
+  font-size: $fontSizeMSmall;
+  text-decoration: underline;
 }
+
 .imgSizeLarge {
-    width: 60%;
-    justify-self: center;
+  width: 60%;
+  justify-self: center;
 }
 
 .formClass {
-    margin-top: 5vh;
+  margin-top: 5vh;
 }
 
 .inputBox {
-    margin-top: 1vh;
-    margin-bottom: 3vh;
-    width: 90%; 
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+  width: 90%;
 }
 
 .formText {
-    width: 90%;
+  display: inline;
 }
 
+.helpText {
+  text-decoration: underline dotted;
+  display: inline;
+}

@@ -47,9 +47,8 @@
         </article>
         <article class="ansCell1 margin-top">
             <h3 class="margin-top">Klassens svar - Hvorfor mener teksten blandt andet, at mennesker vælger at være troende</h3><br>
-            <article class="ansinnerGrid">
+            <article class="ansinnerGrid" id="pull2" ref="drag_target">
                 <article class="ansInner">
-                <p id="ansDrag" id="pull" ref="drag_target2"></p>
                 </article>
             </article>
         </article>
@@ -72,6 +71,22 @@
             if (localStorage.getItem("droppedRef")) {
                 console.log(localStorage.getItem("droppedRef"))
                 this.$refs["drag_target"].innerText = localStorage.getItem("droppedRef");
+                }
+            }
+            
+        })
+    </script>
+
+    <script>
+        var pull2 = new Vue({
+            el: "#pull2",
+            data: {
+
+            },
+            mounted() {
+            if (localStorage.getItem("droppedRef2")) {
+                console.log(localStorage.getItem("droppedRef2"))
+                this.$refs["drag_target"].innerText = localStorage.getItem("droppedRef2");
                 }
             }
             

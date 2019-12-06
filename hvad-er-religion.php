@@ -33,6 +33,17 @@ if (!isset($_SESSION['loggedin'])) {
             <article class="navCell6"><a href="logout.php"><p class="whiteText">Log ud</p></a></article>
     </header>
 
+    <article class="mobile-menu">
+        <a href="home.php"><img class="mobileLogo" src="pictures/Logo.png" alt="Adaptics logo"></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn">
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+        <ul class="menu">
+            <li><a href="home.php">Forside</a></li>
+            <li><a href="milestones.php">Milepæle</a></li>
+            <li><a href="logout.php">Log ud</a></li>
+        </ul>
+    </article>
+
     <ul class="breadcrumb">
         <li><a href="home.php" >Forside</a></li>
         <li><a href="kristendom.php" >Kristendomskundskab</a></li>

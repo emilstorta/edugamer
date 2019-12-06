@@ -44,10 +44,10 @@ if (!isset($_SESSION['loggedin'])) {
     <div id="app">
     
     <article id="avatarTextBox" >
-    <p class="avatarText"></p>
+    
     </article>
-    <img src="pictures/avatarplaceholder.png" alt="Din avatar" class="avatar" >
-    <article class="textBox"></article>
+    <img src="pictures/avatarplaceholder.png" alt="Din avatar" class="avatar" v-bind:class="{avapacity}" >
+    <article class="textBox"  v-bind:class="{hidden: hidden}"><p class="avatarText">{{ sekulaer }}</p></article>
     </div>
 
     <section class="textWorkSpace marginTop">
@@ -57,9 +57,12 @@ if (!isset($_SESSION['loggedin'])) {
         <article class="textCell2"><h2>Opgave 1</h2><br><p class="formText">Gå sammen med din sidemakker og tal i 5 minutter
             om hvad I tror, at mennesker får ud af at være religiøse</p><br><p class="textFont">Hjælpe spørgsmål</p></article>
         <article class="textCell3"><h2>Læren om alt - Har vi brug for religion</h2><br>
-        
         <p class="formText">
-        Hvor er det, at vi i den</p> <div class="help helpText formText"  v:on:click="helpBox"> sekulariserede </div> <p class="formText"> verden kan lære noget af religionerne? Her er et par eksempler:<br><br>
+        Hvor er det, at vi i den</p> 
+        
+        <div class="help helpText formText"  v-on:click="hidden = !true, avapacity = true"> sekulariserede </div> 
+        
+        <p class="formText"> verden kan lære noget af religionerne? Her er et par eksempler:<br><br>
         Sproget – de religiøse har udviklet et sådant for det mystiske, uforståelige, dybe, eksistentielle svære og umådeligt smukke i vores liv.<br><br>
         Organisationen – sekulariseringens modsvar til religionens hellige skrift er kulturens kunstnere, filosoffer og terapeuter. Men de er isolerede. Sårbare. Deprimerede. De kollaborative, brandede, transnationale og disciplinerede religiøse organisationer lærer os, at man må stå sammen, hvis man skal ændre verden.<br><br>
         </p>
@@ -105,7 +108,6 @@ if (!isset($_SESSION['loggedin'])) {
         </article>
 
         <article class="textCell6"></article>
-        <button v:on:click="helpBox"></button>
         
     </section>
     <footer class="footer">
@@ -120,6 +122,9 @@ if (!isset($_SESSION['loggedin'])) {
         var app = new Vue({
             el: "#app",
             data: {
+                hidden: true,
+                avapacity: false,
+                sekulaer: 'sekulær betyder at kirke og stat er afskilt'
 
             },
             methods: {
@@ -142,9 +147,12 @@ if (!isset($_SESSION['loggedin'])) {
                     ev.target.innerText = data;
                     localStorage.setItem("droppedRef2", data)
                 },
-                helpBox(event) {
-                    document.getElementById("avatarTextBox").style.display = "block";
-                }
+                helpBox: function(data) {
+                    this.get(sekulaer);
+                    console.log(sekulaer)
+
+
+                } 
 
 
             },

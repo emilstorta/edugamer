@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="SASS/style.css">
+    <link rel="icon" href="pictures/FavIcon.png" type="image/gif" sizes="16x16">
 </head>
 
 <body>

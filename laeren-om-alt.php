@@ -19,6 +19,7 @@ if (!isset($_SESSION['loggedin'])) {
     <title>Startside</title>
     <link rel="stylesheet" href="SASS/style.css">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="icon" href="pictures/FavIcon.png" type="image/gif" sizes="16x16">
 </head>
 <body>
     <div id="app">
@@ -67,7 +68,7 @@ if (!isset($_SESSION['loggedin'])) {
         </article>
         <article class="textCell2"><h2>Opgave 1</h2><br><p class="formText">Gå sammen med din sidemakker og tal i 5 minutter
             om hvad I tror, at mennesker får ud af at være religiøse</p><br><p class="textFont">Hjælpe spørgsmål</p></article>
-        <article class="textCell3"><h2>Læren om alt - Har vi brug for religion</h2><br>
+        <article class="textCell3"><h2>Opgave 2 <br><br>Læren om alt - Har vi brug for religion</h2><br>
         <p class="formText">
         Hvor er det, at vi i den</p> 
         
@@ -100,7 +101,7 @@ if (!isset($_SESSION['loggedin'])) {
         
         </article>
 
-        <article class="textCell4"><h2>Drag and drop</h2><br><p>Træk de sætninger, som du synes besvarer spørgsmålene, ned i det nedenstående bokse.
+        <article class="textCell4"><h2>Opgave 3 <br><br>Drag and drop</h2><br><p>Træk de sætninger, som du synes besvarer spørgsmålene, ned i det nedenstående bokse.
             I skal derefter snakke om svarerne i klassen.</p>
             
             <form method="GET" class="formClass">
@@ -135,7 +136,7 @@ if (!isset($_SESSION['loggedin'])) {
             data: {
                 hidden: true,
                 avapacity: false,
-                sekulaer: 'sekulær betyder at kirke og stat er afskilt'
+                sekulaer: 'Sekulær betyder at kirke og stat er adskilt.'
 
             },
             methods: {
@@ -178,11 +179,6 @@ if (!isset($_SESSION['loggedin'])) {
             }
         })
     </script>
-
-
-
-
-
 
 </body>
 </html>

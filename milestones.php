@@ -8,6 +8,7 @@
     <title>Milepæle</title>
     <link rel="stylesheet" href="SASS/style.css">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="icon" href="pictures/FavIcon.png" type="image/gif" sizes="16x16">
 </head>
 
 <body>

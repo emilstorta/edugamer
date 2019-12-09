@@ -1,7 +1,7 @@
 .mileGrid {
   display: grid;
   width: 90%;
-  height: 80vh;
+  height: 100vh;
   margin: 10vh auto 10vh auto;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -61,6 +61,7 @@
   width: 90%;
   height: 90%;
   margin: auto;
+  overflow: hidden;
 }
 
 .achImg {

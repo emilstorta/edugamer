@@ -58,7 +58,14 @@ if (!isset($_SESSION['loggedin'])) {
         <li class="breadcrumb-item active" aria-current="page">Forside</li>
     </ul>
 
-    <img src="pictures/avatarplaceholder.png" alt="Din avatar" class="avatar">
+    <div id="velkommen">
+    
+    <article id="avatarTextBox" >
+    
+    </article>
+    <img src="pictures/avatarplaceholder.png" alt="Din avatar" class="avatar avapacity">
+    <article class="textBox"  v-bind:class="{hidden: hidden}"><p class="avatarText2">{{ velkomst }}  {{ bruger }}</p></article>
+    </div>
 
     <section class="workSpace marginTop">
         <article class="homeCell">
@@ -153,6 +160,22 @@ if (!isset($_SESSION['loggedin'])) {
         <p class="footerLeft whiteText">Kontakt </br> Seebladsgade 2 </br> 5100 Odense C </br> Tlf. 54 19 54 12 </p>
         <p class="footerRight whiteText"> &copy; 2019 Adaptics</p>
     </footer>
+
+    <script>
+        var velkommen = new Vue({
+            el: "#velkommen",
+            data: {
+                hidden: true,
+                avapacity: true,
+                sekulaer: 'Sekulær betyder at kirke og stat er adskilt.',
+                velkomst: 'Velkommen',
+                bruger: 'til adaptics!',
+
+            }
+            
+    </script>
+
+    
 </body>
 
 </html>

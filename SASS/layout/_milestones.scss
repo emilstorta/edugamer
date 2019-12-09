@@ -1,7 +1,7 @@
 .mileGrid {
   display: grid;
   width: 90%;
-  height: 100vh;
+  height: 80vh;
   margin: 10vh auto 10vh auto;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -29,17 +29,14 @@
   border-color: #c8c8c8;
 }
 
-.mileAvatar {
+.innerAvatar{
+  display: grid;
   width: 100%;
   height: 90%;
   border-style: solid;
   border-color: #c8c8c8;
-  text-align: center;
-}
-
-#avatarMile {
-  margin-top: 10%;
-  width: 50%;
+  justify-content: center;
+  align-content: center;
 }
 
 .unlocked {

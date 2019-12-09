@@ -54,7 +54,7 @@
         <article class="mileCell1">
             <h3>Nyligt optjent</h3><br>
             <article class="mileAch">
-                <article class="innerAch"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
+                <article class="innerAch" ><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
                     <br>
                     <p class="achText">Religions emne gennemført</p>
                 </article>
@@ -66,11 +66,11 @@
                     <br>
                     <p class="achText">Religions emne gennemført</p>
                 </article>
-                <article class="innerAch"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
+                <article class="innerAch" id="innerAch4"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
                     <br>
                     <p class="achText">Religions emne gennemført</p>
                 </article>
-                <article class="innerAch"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
+                <article class="innerAch" id="innerAch5"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
                     <br>
                     <p class="achText">Religions emne gennemført</p>
                 </article>
@@ -78,8 +78,8 @@
         </article>
         <article class="mileCell2">
             <h3>Din Avatar</h3><br>
-            <article class="mileAvatar">
-                <img src="pictures/avatarplaceholder.png" alt="Avatar" id="avatarMile">
+            <article class="innerAvatar">
+                <img src="pictures/avatarplaceholder.png" alt="Avatar">
             </article>
         </article>
         <article class="mileCell3">
@@ -97,11 +97,11 @@
                     <br>
                     <p class="achText">Historie emne gennemført</p>
                 </article>
-                <article class="innerAch"> <img src="pictures/locked.png" alt="låst" class="achImg">
+                <article class="innerAch" id="innerAch9"> <img src="pictures/locked.png" alt="låst" class="achImg">
                     <br>
                     <p class="achText">Historie emne gennemført</p>
                 </article>
-                <article class="innerAch"> <img src="pictures/locked.png" alt="låst" class="achImg">
+                <article class="innerAch" id="innerAch10"> <img src="pictures/locked.png" alt="låst" class="achImg">
                     <br>
                     <p class="achText">Historie emne gennemført</p>
                 </article>

@@ -1,5 +1,6 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -48,6 +49,7 @@
   .searchSize {
     display: none;
   }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -64,6 +66,7 @@
     display: block;
   }
 
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -78,4 +81,33 @@
     border-style: solid;
     border-color: #c8c8c8;
   }
+
+  .mileGrid {
+    display: grid;
+    width: 90%;
+    height: 50vh;
+    margin: 5vh auto 5vh auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20vh 20vh 5vh;
+    grid-gap: 15px;
+  }
+
+  #innerAch4 {
+    display: none;
+  }
+  
+  #innerAch5 {
+    display: none;
+  }
+
+  #innerAch9 {
+    display: none;
+  }
+
+  #innerAch10 {
+    display: none;
+  }
+
+
 }
+

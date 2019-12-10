@@ -1,7 +1,7 @@
 .allmileGrid {
     display: grid;
     width: 90%;
-    height: 60vh;
+    height: 80vh;
     margin: 10vh auto 10vh auto;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -24,11 +24,13 @@
   }
   
   .allmileAvatar {
+    display: grid;
+    align-content: center;
+    justify-content: center;
     width: 100%;
-    height: 100%;
+    height: 90%;
     border-style: solid;
     border-color: #c8c8c8;
-    text-align: center;
   }
   
   
@@ -71,7 +73,3 @@
     margin: auto;
   }
   
-  #avatarAllMile {
-    margin-top: 10%;
-    margin-bottom: 10%;
-  }

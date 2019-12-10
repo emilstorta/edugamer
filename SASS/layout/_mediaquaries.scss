@@ -46,6 +46,17 @@
     height: 0px;
     display: none;
   }
+
+  .allmileAch {
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .allmileGrid{
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 2fr 1fr;
+    height: 150vh;    
+  }
   
 }
 
@@ -125,6 +136,7 @@
     grid-template-rows: 2fr 1fr 1fr 1fr;
   }
 
+
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -134,5 +146,4 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
-  
 }

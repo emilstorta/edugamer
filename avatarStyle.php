@@ -57,10 +57,10 @@ if (!isset($_SESSION['loggedin'])) {
         <li>Style din Avatar</li>
     </ul>
 
-    <section class="mileGrid">
+    <section class="mileGrid" id="styleGrid">
         <article class="mileCell1">
             <h3>Vælg trøje</h3><br>
-            <article class="mileAch">
+            <article class="mileAch" id="styleShirt">
                 <article class="innerAch"><img src="pictures/gultrøje.png" alt="oplåst" class="styleImg">
                 </article>
                 <article class="innerAch"><img src="pictures/blåtrøje.png" alt="oplåst" class="styleImg">
@@ -71,15 +71,13 @@ if (!isset($_SESSION['loggedin'])) {
         </article>
         <article class="mileCell2">
             <h3>Din Avatar</h3><br>
-            <article class="mileAvatar">
+            <article class="innerAvatar">
                 <img src="pictures/avatarplaceholder.png" alt="Avatar" id="avatarMile">
-                
-
             </article>
         </article>
         <article class="mileCell3">
             <h3>Vælg hår</h3><br>
-            <article class="mileAch">
+            <article class="mileAch" id="styleHair">
                 <article class="innerAch"> <img src="pictures/blåthår.png" alt="låst" class="styleImg">
                 </article>
                 <article class="innerAch"> <img src="pictures/grønthår.png" alt="låst" class="styleImg">

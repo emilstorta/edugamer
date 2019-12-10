@@ -1,10 +1,52 @@
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  .mileAch {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .mileGrid {
+    display: grid;
+    width: 90%;
+    height: 60vh;
+    margin: 5vh auto 5vh auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 2fr 1fr;
+  }
+
+  #innerAch4 {
+    display: none;
+  }
+  
+  #innerAch5 {
+    display: none;
+  }
+
+  #innerAch9 {
+    display: none;
+  }
+
+  #innerAch10 {
+    display: none;
+  }
+
+  header {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
   
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .headerGrid{
+    height: 0px;
+    display: none;
+  }
+  
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -50,64 +92,47 @@
     display: none;
   }
 
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
-  .headerGrid{
-    height: 0px;
-    display: none;
-  }
-  header{
-    display: none;
-  } 
-
-  .mobile-menu {
-    display: block;
+  .achImg {
+    margin-top: 10px;
   }
 
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (max-width: 1200px) {
-  .mileAch {
-    display: grid;
-    width: 90%;
-    height: 80%;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5px;
-    text-align: center;
-    border-style: solid;
-    border-color: #c8c8c8;
+  .mileCell2 {
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 0;
+    grid-row-end: 1;
   }
 
   .mileGrid {
     display: grid;
     width: 90%;
-    height: 50vh;
+    height: 120vh;
     margin: 5vh auto 5vh auto;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 20vh 20vh 5vh;
-    grid-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   }
 
-  #innerAch4 {
-    display: none;
-  }
-  
-  #innerAch5 {
-    display: none;
+  .mileAch {
+    width: 100%;
   }
 
-  #innerAch9 {
-    display: none;
+  #styleBtn {
+    grid-row-start: 2;
+    grid-row-end: 2;
   }
 
-  #innerAch10 {
-    display: none;
+  #styleGrid {
+    grid-template-rows: 2fr 1fr 1fr 1fr;
   }
-
 
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  
+}

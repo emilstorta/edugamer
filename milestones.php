@@ -47,7 +47,7 @@
     <h1 class="overskrift">Milepæle</h1>
     <p class="underoverskrift">Her kan du se dine oplåste præstationer, de præstationer du er tæt på at låse op for,
         samt din avatar.
-        </br> Du kan trykke på "style din Avatar" for at give ham/hende et nyt look. Du låser op for nyt tøj ved at
+        </br> Du kan trykke på "Style din Avatar" for at give ham/hende et nyt look. Du låser op for nyt tøj ved at
         bruge hjemmesiden</p>
 
     <section class="mileGrid">
@@ -110,7 +110,7 @@
         <a class="btnOne achBtn" href="allmilestones.php">
             <button class="btnOne achBtn">Se alle dine Achievements</button>
         </a>
-        <a class="btnOne achBtn" href="avatarStyle.php">
+        <a class="btnOne achBtn" href="avatarStyle.php" id="styleBtn">
             <button class="btnOne achBtn" type="submit" onclick="">Style din Avatar</button>
         </a>
 

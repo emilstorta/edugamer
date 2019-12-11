@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Login Side</title>
     <link rel="stylesheet" href="SASS/style.css">
     <link rel="icon" href="pictures/FavIcon.png" type="image/gif" sizes="16x16">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 
 <body>
@@ -47,6 +48,27 @@
                         }
                         
                         ?>
+
+                        <div id="app" class="loginInfo">
+                            <button  v-on:click="call('Brugernavn: Admin \nPassword Admin123')">Få kode og password</button>
+                        
+                        </div>
+
+
+                    <script>
+                    var app = new Vue({
+                    el: '#app',
+                    methods: {
+                        call: function (message) {
+                            alert(message)
+                        }
+                        
+                    }
+                   })
+                </script>
+
+
+
 
 <!--                        
                         <input type="text" class="loginInput" placeholder="Skriv brugernavn..."></br>

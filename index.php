@@ -14,7 +14,7 @@
 <body>
     <article id="pageContainer">
         <article id="content3rap">
-            <header>
+            <header class="headerIndex">
                 <article class="headerGrid">
                     <article class="navCell1"><a href="index.php"><img src="pictures/Logo.png" alt="Adaptics Logo"
                                 class="logo"></a>

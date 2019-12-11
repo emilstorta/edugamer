@@ -24,8 +24,7 @@ if (!isset($_SESSION['loggedin'])) {
 </head>
 
 <body>
-    <header>
-
+    <header class="headerPages">
         <article class="headerGrid">
             <article class="navCell1"><a href="home.php"><img src="pictures/Logo.png" alt="Adaptics Logo"
                         class="logo"></a></article>

@@ -23,8 +23,7 @@ if (!isset($_SESSION['loggedin'])) {
 </head>
 
 <body>
-
-            <header>
+            <header class="headerIndex">
                 <article class="headerGrid">
                     <article class="navCell1"><a href="index.php"><img src="pictures/Logo.png" alt="Adaptics Logo"
                                 class="logo"></a>

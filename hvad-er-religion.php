@@ -23,8 +23,7 @@ if (!isset($_SESSION['loggedin'])) {
     <link rel="icon" href="pictures/FavIcon.png" type="image/gif" sizes="16x16">
 </head>
 <body>
-    <header>
-        
+    <header class="headerPages">
         <article class="headerGrid">
             <article class="navCell1"><a href="home.php"><img src="pictures/Logo.png" alt="Adaptics Logo" class="logo"></a></article>
             <article class="navCell2"><a href="home.php"><p class="whiteText">Forside</p></a></article>

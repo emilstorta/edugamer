@@ -45,13 +45,11 @@ if (!isset($_SESSION['loggedin'])) {
     </article>
 
     <ul class="breadcrumb">
-            <li><a href="home.php" >Forside</a></li>
-            <li><a href="kristendom.php" >Kristendomskundskab</a></li>
-            <li><a href="hvad-er-religion.php"> Hvad er religion?</a></li>
-            <li>Læren om alt</li>
-        </ul>
-
-    <h1 class="overskrift">Læren om alt</h1>
+        <li><a href="home.php" >Forside</a></li>
+        <li><a href="kristendom.php" >Kristendomskundskab</a></li>
+        <li><a href="hvad-er-religion.php"> Hvad er religion?</a></li>
+        <li>Læren om alt</li>
+    </ul>
 
     <div id="app">
     
@@ -60,7 +58,9 @@ if (!isset($_SESSION['loggedin'])) {
     </article>
     <img src="pictures/avatarplaceholder.png" alt="Din avatar" class="avatar" v-bind:class="{avapacity}" >
     <article class="textBox"  v-bind:class="{hidden: hidden}"><p class="avatarText">{{ sekulaer }}</p></article>
-    </div>
+    </div> 
+
+    <h1 class="overskrift">Læren om alt</h1>
 
     <section class="textWorkSpace marginTop">
         <article class="textCell1">

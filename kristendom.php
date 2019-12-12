@@ -25,7 +25,7 @@ if (!isset($_SESSION['loggedin'])) {
         <article class="headerGrid">
             <article class="navCell1"><a href="home.php"><img src="pictures/Logo.png" alt="Adaptics Logo" class="logo"></a></article>
             <article class="navCell2"><a href="home.php"><p class="whiteText">Forside</p></a></article>
-            <article class="navCell3"><p class="whiteText">Milepæle</p></article>
+            <article class="navCell3"><a href="milestones.php"><p class="whiteText">Milepæle</p></a></article>
             <article class="navCell4"><input type="text" class="search" placeholder="Søg"></article>
             <article class="navCell5"><img src="pictures/Search2.png" alt="search2" class="searchSize"></article>
             <article class="navCell6"><a href="logout.php"><p class="whiteText">Log ud</p></a></article>
@@ -47,6 +47,7 @@ if (!isset($_SESSION['loggedin'])) {
         <li><a href="home.php" >Forside</a></li>
         <li>Kristendomskundskab</li>
     </ul>
+    
     <img src="pictures/avatarplaceholder.png" alt="Din avatar" class="avatar">
     
     <h1 class="overskrift">Kristendomskundskab</h1>

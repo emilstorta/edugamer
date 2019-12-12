@@ -60,43 +60,33 @@ if (!isset($_SESSION['loggedin'])) {
             <h3>Alle milepæle</h3><br>
             <article class="allmileAch">
                 <article class="innerAch"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
-                    <br>
                     <p class="allachText">Gennemført &#10003; <br> Alle opgaver i Matematik løst</p>
                 </article>
                 <article class="innerAch"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
-                    <br>
                     <p class="allachText">Gennemført &#10003; <br>  Alle opgaver tekster i Engelsk læst</p>
                 </article>
                 <article class="innerAch"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
-                    <br>
                     <p class="allachText">Gennemført &#10003; <br> </p>
                 </article>
                 <article class="innerAch"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
-                    <br>
                     <p class="allachText">Gennemført &#10003; <br> </p>
                 </article>
                 <article class="innerAch"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
-                    <br>
                     <p class="allachText">Gennemført &#10003; <br> </p>
                 </article>
                 <article class="innerAch"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
-                    <br>
                     <p class="allachText">Gennemført &#10003; <br> </p>
                 </article>
                 <article class="innerAch"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
-                    <br>
                     <p class="allachText">Gennemført &#10003; <br> </p>
                 </article>
                 <article class="innerAch"><img src="pictures/locked.png" alt="oplåst" class="achImg">
-                    <br>
                     <p class="allachText">Låst</p>
                 </article>
                 <article class="innerAch"><img src="pictures/locked.png" alt="oplåst" class="achImg">
-                    <br>
                     <p class="allachText">Låst</p>
                 </article>
                 <article class="innerAch"><img src="pictures/locked.png" alt="oplåst" class="achImg">
-                    <br>
                     <p class="allachText">Låst</p>
                 </article>
 

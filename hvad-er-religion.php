@@ -50,11 +50,11 @@ if (!isset($_SESSION['loggedin'])) {
         <li>Hvad er religion?</li>
     </ul>
 
+    <img src="pictures/avatarplaceholder.png" alt="Din avatar" class="avatar">
+
     <h1 class="overskrift">Tester om "Hvad er religion"</h1>
 
     <input type="text" placeholder="Søg" class="marginLeft"> <input type="submit">
-
-    <img src="pictures/avatarplaceholder.png" alt="Din avatar" class="avatar">
     
     <section class="workSpace marginTop marginSide">
         <article class="mainCell">

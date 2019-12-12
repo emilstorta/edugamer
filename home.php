@@ -57,8 +57,6 @@ if (!isset($_SESSION['loggedin'])) {
         <li class="breadcrumb-item active" aria-current="page">Forside</li>
     </ul>
 
-    
-    
     <img src="pictures/avatarplaceholder.png" alt="Din avatar" class="avatar">
     
     <h1 class="overskrift">Dine fag</h1>

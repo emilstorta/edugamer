@@ -55,20 +55,12 @@
 }
 
 .innerAch {
+  display: grid;
   width: 90%;
   height: 90%;
-  margin: auto;
+  margin-top: 20px;
+  justify-content: center;
   overflow: hidden;
-}
-
-.achImg {
-  width: 60px;
-  height: 60px;
-  margin-top: 20px;
-}
-
-.achText {
-  margin-top: 20px;
 }
 
 .achBtn {

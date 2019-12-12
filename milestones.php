@@ -54,23 +54,18 @@
             <h3>Nyligt optjent</h3><br>
             <article class="mileAch">
                 <article class="innerAch" ><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
-                    <br>
                     <p class="achText">Religions emne gennemført</p>
                 </article>
                 <article class="innerAch"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
-                    <br>
                     <p class="achText">Religions emne gennemført</p>
                 </article>
                 <article class="innerAch"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
-                    <br>
                     <p class="achText">Religions emne gennemført</p>
                 </article>
                 <article class="innerAch" id="innerAch4"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
-                    <br>
                     <p class="achText">Religions emne gennemført</p>
                 </article>
                 <article class="innerAch" id="innerAch5"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
-                    <br>
                     <p class="achText">Religions emne gennemført</p>
                 </article>
             </article>
@@ -85,23 +80,18 @@
             <h3>Du er der næsten!</h3><br>
             <article class="mileAch">
                 <article class="innerAch"> <img src="pictures/locked.png" alt="låst" class="achImg">
-                    <br>
                     <p class="achText">Historie emne gennemført</p>
                 </article>
                 <article class="innerAch"> <img src="pictures/locked.png" alt="låst" class="achImg">
-                    <br>
                     <p class="achText">Historie emne gennemført</p>
                 </article>
                 <article class="innerAch"> <img src="pictures/locked.png" alt="låst" class="achImg">
-                    <br>
                     <p class="achText">Historie emne gennemført</p>
                 </article>
                 <article class="innerAch" id="innerAch9"> <img src="pictures/locked.png" alt="låst" class="achImg">
-                    <br>
                     <p class="achText">Historie emne gennemført</p>
                 </article>
                 <article class="innerAch" id="innerAch10"> <img src="pictures/locked.png" alt="låst" class="achImg">
-                    <br>
                     <p class="achText">Historie emne gennemført</p>
                 </article>
             </article>

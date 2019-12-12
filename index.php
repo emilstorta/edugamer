@@ -13,7 +13,7 @@
 
 <body>
     <article id="pageContainer">
-        <article id="content3rap">
+        <article id="contentWrap">
             <header class="headerIndex">
                 <article class="headerGrid">
                     <article class="navCell1"><a href="index.php"><img src="pictures/Logo.png" alt="Adaptics Logo"
@@ -66,23 +66,6 @@
                     }
                    })
                 </script>
-
-
-
-
-<!--                        
-                        <input type="text" class="loginInput" placeholder="Skriv brugernavn..."></br>
-                        <a href="" class="loginlost" id="loginglemt">Glemt brugernavn</a>
-                        <h3 id="passwordMargin">Adgangskode</h3>
-                        <input type="password" class="loginInput" placeholder="Skriv adgangskode..."></br>
-                        <a href="" class="loginlost" id="loginglemt">Glemt adgangskode</a>
-                    </article>
-                </article>
-                <form method="get" action="/pages/main.html">
-                    <button class="btnOne" id="btnMargin" type="submit">Log ind</button>
-                </form>
-            
-            -->
             </article>
         </article>
     </article>

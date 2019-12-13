@@ -22,42 +22,65 @@ if (!isset($_SESSION['loggedin'])) {
     <link rel="icon" href="pictures/FavIcon.png" type="image/gif" sizes="16x16">
 </head>
 <body>
+<!-- Navigation -->
     <div id="app">
     <header class="headerPages">
         <article class="headerGrid">
-            <article class="navCell1"><a href="home.php"><img src="pictures/Logo.png" alt="Adaptics Logo" class="logo"></a></article>
-            <article class="navCell2"><a href="home.php"><p class="whiteText">Forside</p></a></article>
-            <article class="navCell3"><a href="milestones.php"><p class="whiteText">Milepæle</p></a></article>
-            <article class="navCell4"><input type="text" class="search" placeholder="Søg"></article>
-            <article class="navCell5"><img src="pictures/Search2.png" alt="search2" class="searchSize"></article>
-            <article class="navCell6"><a href="logout.php"><p class="whiteText">Log ud</p></a></article>
+            <article class="navCell1">
+                <a href="home.php">
+                    <img src="pictures/Logo.png" alt="Adaptics Logo" class="logo">
+                </a>
+            </article>
+            <article class="navCell2">
+                <a href="home.php">
+                    <p class="whiteText">Forside</p>
+                </a>
+            </article>
+            <article class="navCell3">
+                <a href="milestones.php">
+                    <p class="whiteText">Milepæle</p>
+                </a>
+            </article>
+            <article class="navCell4">
+                <input type="text" class="search" placeholder="Søg"></article>
+                <article class="navCell5">
+                    <img src="pictures/Search2.png" alt="search2" class="searchSize">
+                </article>
+            <article class="navCell6">
+                <a href="logout.php">
+                    <p class="whiteText">Log ud</p>
+                </a>
+            </article>
     </header>
-
+<!-- Navigation Mobil -->
     <article class="mobile-menu">
-        <a href="home.php"><img class="mobileLogo" src="pictures/Logo.png" alt="Adaptics logo"></a>
-        <input class="menu-btn" type="checkbox" id="menu-btn">
-        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+        <a href="home.php">
+            <img class="mobileLogo" src="pictures/Logo.png" alt="Adaptics logo"></a>
+            <input class="menu-btn" type="checkbox" id="menu-btn">
+            <label class="menu-icon" for="menu-btn">
+                <span class="nav-icon"></span>
+            </label>
         <ul class="menu">
             <li><a href="home.php">Forside</a></li>
             <li><a href="milestones.php">Milepæle</a></li>
             <li><a href="logout.php">Log ud</a></li>
         </ul>
     </article>
-
+<!-- breadcrumbs -->
     <ul class="breadcrumb">
         <li><a href="home.php" >Forside</a></li>
         <li><a href="kristendom.php" >Kristendomskundskab</a></li>
         <li><a href="hvad-er-religion.php"> Hvad er religion?</a></li>
         <li>Læren om alt</li>
     </ul>
-
+<!-- Avatar boks - Interaktiv -->
     <div id="app">
-    
-    <article id="avatarTextBox" >
-    
-    </article>
-    <img src="pictures/avatarplaceholder.png" alt="Din avatar" class="avatar" v-bind:class="{avapacity}" >
-    <article class="textBox"  v-bind:class="{hidden: hidden}"><p class="avatarText">{{ sekulaer }}</p></article>
+        <article id="avatarTextBox" >
+        </article>
+            <img src="pictures/avatarplaceholder.png" alt="Din avatar" class="avatar" v-bind:class="{avapacity}" >
+                <article class="textBox"  v-bind:class="{hidden: hidden}">
+                    <p class="avatarText">{{ sekulaer }}</p>
+                </article>
     </div> 
 
     <h1 class="overskrift">Læren om alt</h1>
@@ -66,27 +89,30 @@ if (!isset($_SESSION['loggedin'])) {
         <article class="textCell1">
            <iframe width="560" height="315" src="https://www.youtube.com/embed/6BQ_K-me8qM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="introVideo"></iframe>
         </article>
-        <article class="textCell2"><h2>Opgave 1</h2><br><p class="formText">Gå sammen med din sidemakker og tal i 5 minutter
-            om hvad I tror, at mennesker får ud af at være religiøse</p><br><p class="textFont">Hjælpe spørgsmål</p></article>
-        <article class="textCell3"><h2>Opgave 2 <br><br>Læren om alt - Har vi brug for religion</h2><br>
-        <p class="formText">
-        Hvor er det, at vi i den</p> 
-        
+        <article class="textCell2">
+            <h2>Opgave 1</h2>
+                <br> <p class="formText">Gå sammen med din sidemakker og tal i 5 minutter om hvad I tror, at mennesker får ud af at være religiøse</p>
+                <br> <p class="textFont">Hjælpe spørgsmål</p>
+        </article>
+        <article class="textCell3">
+            <h2>Opgave 2 <br><br>Læren om alt - Har vi brug for religion</h2><br>
+        <p class="formText">Hvor er det, at vi i den</p> 
+        <!-- Hjælpefunktion i tekst - kalder en besked i vue -->
         <div class="help helpText formText"  v-on:click="hidden = !true, avapacity = true"> sekulariserede </div> 
         
         <p class="formText"> verden kan lære noget af religionerne? Her er et par eksempler:<br><br>
         Sproget – de religiøse har udviklet et sådant for det mystiske, uforståelige, dybe, eksistentielle svære og umådeligt smukke i vores liv.<br><br>
         Organisationen – sekulariseringens modsvar til religionens hellige skrift er kulturens kunstnere, filosoffer og terapeuter. Men de er isolerede. Sårbare. Deprimerede. De kollaborative, brandede, transnationale og disciplinerede religiøse organisationer lærer os, at man må stå sammen, hvis man skal ændre verden.<br><br>
         </p>
-
-            <div id="drag_object" ref="drag_object " class="drag-object formText inline" draggable="true" @dragstart="dragstart_handler"> Kunsten – hvor de kristne har bibelen, har vi Platon. </div>
+        <!-- Giver drag objectet en id, så den kan findes på næste side -->
+        <div id="drag_object" ref="drag_object " class="drag-object formText inline" draggable="true" @dragstart="dragstart_handler"> Kunsten – hvor de kristne har bibelen, har vi Platon. </div>
         
         <p class="formText">
         Hvor muslimerne har Koranen, har vi Shakespeare. Hvor buddhisterne har mandalaen, har vi graffiti. Vi værner om kunst for kunstens egen skyld. Museer er vores nye kirker. Religionen belærer os om, hvorfor kunsten må være mere end det.<br><br>
         Troens kraft<br> 
         </p>
 
-            <div id="drag_object2" ref="drag_object" class="drag-object formText inline" draggable="true" @dragstart="dragstart_handler">
+        <div id="drag_object2" ref="drag_object" class="drag-object formText inline" draggable="true" @dragstart="dragstart_handler">
         
         
         Men vigtigst af alt kan religionen lære os at tro.</div>
@@ -120,10 +146,10 @@ if (!isset($_SESSION['loggedin'])) {
         </article>
 
         <article class="textCell6"></article>
-        
     </section>
+    <!-- Footer -->
     <footer class="footer">
-        <p class="footerLeft whiteText">Kontakt </br> Seebladsgade 2 </br> 5100 Odense C  </br> Tlf. 54 19 54 12 </p>
+        <p class="footerLeft whiteText">Kontakt <br> Seebladsgade 2 <br> 5100 Odense C  <br> Tlf. 54 19 54 12 </p>
         <p class="footerRight whiteText"> &copy; 2019 Adaptics</p>
     </footer>
 </div>

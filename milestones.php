@@ -12,23 +12,41 @@
 </head>
 
 <body>
+<!-- Navigation -->
     <header class="headerPages">
         <article class="headerGrid">
-            <article class="navCell1"><a href="home.php"><img src="pictures/Logo.png" alt="Adaptics Logo"
-                        class="logo"></a></article>
-            <article class="navCell2"><a href="home.php">
+            <article class="navCell1">
+                <a href="home.php">
+                    <img src="pictures/Logo.png" alt="Adaptics Logo" class="logo">
+                </a>
+            </article>
+            <article class="navCell2">
+                <a href="home.php">
                     <p class="whiteText">Forside</p>
-                </a></article>
-            <article class="navCell3"><a href="milestones.php">
+                </a>
+            </article>
+            <article class="navCell3">
+                <a href="milestones.php">
                     <p class="whiteText">Milepæle</p>
-                </a></article>
-            <article class="navCell4"><input type="text" class="search" placeholder="Søg"></article>
-            <article class="navCell5"><img src="pictures/Search2.png" alt="search2" class="searchSize"></article>
-            <article class="navCell6"><a href="logout.php"><p class="whiteText">Log ud</p></a></article>
+                </a>
+            </article>
+            <article class="navCell4">
+                <input type="text" class="search" placeholder="Søg">
+            </article>
+            <article class="navCell5">
+                <img src="pictures/Search2.png" alt="search2" class="searchSize">
+            </article>
+            <article class="navCell6">
+                <a href="logout.php">
+                    <p class="whiteText">Log ud</p>
+                </a>
+            </article>
     </header>
-
+<!-- Navigation Mobil -->
     <article class="mobile-menu">
-        <a href="home.php"><img class="mobileLogo" src="pictures/Logo.png" alt="Adaptics logo"></a>
+        <a href="home.php">
+            <img class="mobileLogo" src="pictures/Logo.png" alt="Adaptics logo">
+        </a>
         <input class="menu-btn" type="checkbox" id="menu-btn">
         <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
         <ul class="menu">
@@ -37,39 +55,45 @@
             <li><a href="logout.php">Log ud</a></li>
         </ul>
     </article>
-
+<!-- Breadcrumbs -->
         <ul class="breadcrumb">
             <li><a href="home.php" >Forside</a></li>
             <li>Milepæle</li>
         </ul>
 
     <h1 class="overskrift">Milepæle</h1>
-    <p class="underoverskrift">Her kan du se dine oplåste præstationer, de præstationer du er tæt på at låse op for,
+        <p class="underoverskrift">Her kan du se dine oplåste præstationer, de præstationer du er tæt på at låse op for,
         samt din avatar.
         </br> Du kan trykke på "Style din Avatar" for at give ham/hende et nyt look. Du låser op for nyt tøj ved at
-        bruge hjemmesiden</p>
-
+        bruge hjemmesiden
+        </p>
+<!-- Milepæle grid -->
     <section class="mileGrid">
         <article class="mileCell1">
             <h3>Nyligt optjent</h3><br>
-            <article class="mileAch">
-                <article class="innerAch" ><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
-                    <p class="achText">Religions emne gennemført</p>
-                </article>
-                <article class="innerAch"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
-                    <p class="achText">Religions emne gennemført</p>
-                </article>
-                <article class="innerAch"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
-                    <p class="achText">Religions emne gennemført</p>
-                </article>
-                <article class="innerAch" id="innerAch4"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
-                    <p class="achText">Religions emne gennemført</p>
-                </article>
-                <article class="innerAch" id="innerAch5"><img src="pictures/unlocked.png" alt="oplåst" class="achImg">
-                    <p class="achText">Religions emne gennemført</p>
+                <article class="mileAch">
+                    <article class="innerAch" >
+                        <img src="pictures/unlocked.png" alt="oplåst" class="achImg">
+                        <p class="achText">Religions emne gennemført</p>
+                    </article>
+                    <article class="innerAch">
+                        <img src="pictures/unlocked.png" alt="oplåst" class="achImg">
+                        <p class="achText">Religions emne gennemført</p>
+                    </article>
+                    <article class="innerAch">
+                        <img src="pictures/unlocked.png" alt="oplåst" class="achImg">
+                        <p class="achText">Religions emne gennemført</p>
+                    </article>
+                    <article class="innerAch" id="innerAch4">
+                        <img src="pictures/unlocked.png" alt="oplåst" class="achImg">
+                        <p class="achText">Religions emne gennemført</p>
+                    </article>
+                    <article class="innerAch" id="innerAch5">
+                        <img src="pictures/unlocked.png" alt="oplåst" class="achImg">
+                        <p class="achText">Religions emne gennemført</p>
+                    </article>
                 </article>
             </article>
-        </article>
         <article class="mileCell2">
             <h3>Din Avatar</h3><br>
             <article class="innerAvatar">
@@ -79,19 +103,24 @@
         <article class="mileCell3">
             <h3>Du er der næsten!</h3><br>
             <article class="mileAch">
-                <article class="innerAch"> <img src="pictures/locked.png" alt="låst" class="achImg">
+                <article class="innerAch"> 
+                    <img src="pictures/locked.png" alt="låst" class="achImg">
                     <p class="achText">Historie emne gennemført</p>
                 </article>
-                <article class="innerAch"> <img src="pictures/locked.png" alt="låst" class="achImg">
+                <article class="innerAch"> 
+                    <img src="pictures/locked.png" alt="låst" class="achImg">
                     <p class="achText">Historie emne gennemført</p>
                 </article>
-                <article class="innerAch"> <img src="pictures/locked.png" alt="låst" class="achImg">
+                <article class="innerAch"> 
+                    <img src="pictures/locked.png" alt="låst" class="achImg">
                     <p class="achText">Historie emne gennemført</p>
                 </article>
-                <article class="innerAch" id="innerAch9"> <img src="pictures/locked.png" alt="låst" class="achImg">
+                <article class="innerAch" id="innerAch9"> 
+                    <img src="pictures/locked.png" alt="låst" class="achImg">
                     <p class="achText">Historie emne gennemført</p>
                 </article>
-                <article class="innerAch" id="innerAch10"> <img src="pictures/locked.png" alt="låst" class="achImg">
+                <article class="innerAch" id="innerAch10"> 
+                    <img src="pictures/locked.png" alt="låst" class="achImg">
                     <p class="achText">Historie emne gennemført</p>
                 </article>
             </article>
@@ -105,9 +134,9 @@
 
     </section>
 
-
+<!-- Footer -->
     <footer class="footer">
-        <p class="footerLeft whiteText">Kontakt </br> Seebladsgade 2 </br> 5100 Odense C </br> Tlf. 54 19 54 12 </p>
+        <p class="footerLeft whiteText">Kontakt <br> Seebladsgade 2 <br> 5100 Odense C <br> Tlf. 54 19 54 12 </p>
         <p class="footerRight whiteText"> &copy; 2019 Adaptics</p>
     </footer>
 </body>

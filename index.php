@@ -12,30 +12,30 @@
 </head>
 
 <body>
+<!-- Navigation -->
     <article id="pageContainer">
         <article id="content3rap">
             <header class="headerIndex">
                 <article class="headerGrid">
-                    <article class="navCell1"><a href="index.php"><img src="pictures/Logo.png" alt="Adaptics Logo"
-                                class="logo"></a>
+                    <article class="navCell1">
+                        <a href="index.php">
+                            <img src="pictures/Logo.png" alt="Adaptics Logo" class="logo">
+                        </a>
                     </article>
                 </article>
             </header>
+            <!-- Login -->
             <article class="wrapper">
                 <article class="loginbox">
                     <h1 id="uniMargin">UNI&bull;Login</h1>
-                    <article class="loginform">
-                        <h3>Brugernavn</h3>
+                        <article class="loginform">
+                            <h3>Brugernavn</h3>
                         <form action="authenicate.php" method="POST">
-                            
                             <label for="username"></label>
                             <input type="text" name="username" placeholder="Brugernavn" id="username" required>
-
                             <label for="password"></label>
                             <input type="password" name="password" placeholder="Kodeord" id="password" required>
-
                             <input type="submit" value="login">
-
                         </form>
 
                         <?php 
@@ -48,13 +48,13 @@
                         }
                         
                         ?>
-
+                    <!-- Knap til at få kode - Kun til eksamination -->
                         <div id="app" class="loginInfo">
                             <button  v-on:click="call('Brugernavn: Admin \nPassword Admin123')">Få kode og password</button>
                         
                         </div>
 
-
+                    <!-- Giver en alert ved tryk på knap -->
                     <script>
                     var app = new Vue({
                     el: '#app',
@@ -66,28 +66,16 @@
                     }
                    })
                 </script>
-
-
-
-
-<!--                        
-                        <input type="text" class="loginInput" placeholder="Skriv brugernavn..."></br>
-                        <a href="" class="loginlost" id="loginglemt">Glemt brugernavn</a>
-                        <h3 id="passwordMargin">Adgangskode</h3>
-                        <input type="password" class="loginInput" placeholder="Skriv adgangskode..."></br>
-                        <a href="" class="loginlost" id="loginglemt">Glemt adgangskode</a>
                     </article>
                 </article>
-                <form method="get" action="/pages/main.html">
-                    <button class="btnOne" id="btnMargin" type="submit">Log ind</button>
-                </form>
-            
-            -->
+
             </article>
         </article>
     </article>
+
+    <!-- Footer -->
     <footer class="footer" id="footer">
-        <p class="footerLeft whiteText">Kontakt </br> Seebladsgade 2 </br> 5100 Odense C </br> Tlf. 54 19 54 12 </p>
+        <p class="footerLeft whiteText">Kontakt <br> Seebladsgade 2 <br> 5100 Odense C <br> Tlf. 54 19 54 12 </p>
         <p class="footerRight whiteText"> &copy; 2019 Adaptics</p>
     </footer>
 </body>

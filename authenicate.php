@@ -1,10 +1,19 @@
 <?php
 session_start();
 
+/* Localhost database */
+/*
 $DATABASE_HOST = 'localhost';
 $DATABASE_USER = 'root';
 $DATABASE_PASS =  '';
 $DATABASE_NAME = 'login';
+*/
+
+/* Online database */
+$DATABASE_HOST = 'k-grum.com.mysql';
+$DATABASE_USER = 'k_grum_com';
+$DATABASE_PASS =  '9dGu5mrgCqod37DbjPsziZM7';
+$DATABASE_NAME = 'k_grum_com';
 
 $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
 if (mysqli_connect_errno()) {

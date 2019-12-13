@@ -12,32 +12,52 @@
 </head>
 
 <body>
+<!-- Navigation -->
     <header class="headerPages">
         <article class="headerGrid">
-            <article class="navCell1"><a href="home.php"><img src="pictures/Logo.png" alt="Adaptics Logo"
-                        class="logo"></a></article>
-            <article class="navCell2"><a href="home.php">
+            <article class="navCell1">
+                <a href="home.php">
+                    <img src="pictures/Logo.png" alt="Adaptics Logo" class="logo">
+                </a>
+            </article>
+            <article class="navCell2">
+                <a href="home.php">
                     <p class="whiteText">Forside</p>
-                </a></article>
-            <article class="navCell3"><a href="milestones.php">
+                </a>
+            </article>
+            <article class="navCell3">
+                <a href="milestones.php">
                     <p class="whiteText">Milepæle</p>
-                </a></article>
-            <article class="navCell4"><input type="text" class="search" placeholder="Søg"></article>
-            <article class="navCell5"><img src="pictures/Search2.png" alt="search2" class="searchSize"></article>
-            <article class="navCell6"><a href="logout.php"><p class="whiteText">Log ud</p></a></article>
+                </a>
+            </article>
+            <article class="navCell4">
+                <input type="text" class="search" placeholder="Søg">
+            </article>
+            <article class="navCell5">
+                <img src="pictures/Search2.png" alt="search2" class="searchSize">
+            </article>
+            <article class="navCell6">
+                <a href="logout.php">
+                    <p class="whiteText">Log ud</p>
+                </a>
+            </article>
     </header>
-
+<!-- Navigation Mobil -->
     <article class="mobile-menu">
-        <a href="home.php"><img class="mobileLogo" src="pictures/Logo.png" alt="Adaptics logo"></a>
+        <a href="home.php">
+            <img class="mobileLogo" src="pictures/Logo.png" alt="Adaptics logo">
+        </a>
         <input class="menu-btn" type="checkbox" id="menu-btn">
-        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
         <ul class="menu">
             <li><a href="home.php">Forside</a></li>
             <li><a href="milestones.php">Milepæle</a></li>
             <li><a href="logout.php">Log ud</a></li>
         </ul>
     </article>
-
+<!-- Breadcrumbs -->
     <ul class="breadcrumb">
             <li><a href="home.php" >Forside</a></li>
             <li><a href="kristendom.php" >Kristendomskundskab</a></li>
@@ -47,23 +67,23 @@
     </ul>
 
     <h1 class="overskrift">Diskussion</h1>
-    <section class="ansGrid">
-        <article class="ansCell1">
-            <h3>Klassens svar - Hvad kan vi blandt andet lære om religion?</h3><br>
-            <article class="ansinnerGrid" id="pull" ref="drag_target">
-                <article class="ansInner" >
-                
+        <section class="ansGrid">
+            <article class="ansCell1">
+                <h3>Klassens svar - Hvad kan vi blandt andet lære om religion?</h3><br>
+                    <article class="ansinnerGrid" id="pull" ref="drag_target">
+                        <article class="ansInner" >
+                        </article>
+                    </article>
+            </article>
+
+            <article class="ansCell1 margin-top">
+                <h3 class="margin-top">Klassens svar - Hvorfor mener teksten blandt andet, at mennesker vælger at være troende</h3><br>
+                    <article class="ansinnerGrid" id="pull2" ref="drag_target">
+                        <article class="ansInner">
+                    </article>
                 </article>
             </article>
-        </article>
-        <article class="ansCell1 margin-top">
-            <h3 class="margin-top">Klassens svar - Hvorfor mener teksten blandt andet, at mennesker vælger at være troende</h3><br>
-            <article class="ansinnerGrid" id="pull2" ref="drag_target">
-                <article class="ansInner">
-                </article>
-            </article>
-        </article>
-    </section>
+        </section>
 
 
     <footer class="footer">

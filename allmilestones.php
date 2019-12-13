@@ -25,23 +25,47 @@ if (!isset($_SESSION['loggedin'])) {
 <body>
     <header class="headerPages">
         <article class="headerGrid">
-            <article class="navCell1"><a href="home.php"><img src="pictures/Logo.png" alt="Adaptics Logo"
-                        class="logo"></a></article>
-            <article class="navCell2"><a href="home.php">
+            <article class="navCell1">
+                <a href="home.php">
+                    <img src="pictures/Logo.png" alt="Adaptics Logo" class="logo">
+                </a>
+            </article>
+
+            <article class="navCell2">
+                <a href="home.php">
                     <p class="whiteText">Forside</p>
-                </a></article>
-            <article class="navCell3"><a href="milestones.php">
+                </a>
+            </article>
+
+            <article class="navCell3">
+                <a href="milestones.php">
                     <p class="whiteText">Style din Avatar</p>
-                </a></article>
-            <article class="navCell4"><input type="text" class="search" placeholder="Søg"></article>
-            <article class="navCell5"><img src="pictures/Search2.png" alt="search2" class="searchSize"></article>
-            <article class="navCell6"><a href="logout.php"><p class="whiteText">Log ud</p></a></article>
+                </a>
+            </article>
+
+            <article class="navCell4">
+                <input type="text" class="search" placeholder="Søg">
+            </article>
+
+            <article class="navCell5">
+                <img src="pictures/Search2.png" alt="search2" class="searchSize">
+            </article>
+
+            <article class="navCell6">
+                <a href="logout.php">
+                    <p class="whiteText">Log ud</p>
+                </a>
+            </article>
     </header>
 
     <article class="mobile-menu">
-        <a href="home.php"><img class="mobileLogo" src="pictures/Logo.png" alt="Adaptics logo"></a>
+        <a href="home.php">
+            <img class="mobileLogo" src="pictures/Logo.png" alt="Adaptics logo">
+        </a>
         <input class="menu-btn" type="checkbox" id="menu-btn">
-        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
         <ul class="menu">
             <li><a href="home.php">Forside</a></li>
             <li><a href="milestones.php">Milepæle</a></li>
@@ -94,9 +118,9 @@ if (!isset($_SESSION['loggedin'])) {
         </article>
         <article class="mileCell1">
             <h3>Din Avatar</h3><br>
-            <article class="allmileAvatar">
-                <img src="pictures/avatarplaceholder.png" alt="Avatar" id="avatarAllMile">
-            </article>
+                <article class="allmileAvatar">
+                    <img src="pictures/avatarplaceholder.png" alt="Avatar" id="avatarAllMile">
+                 </article>
         </article>
         <a class="btnOne achBtn" href="milestones.php">
             <button class="btnOne achBtn" type="submit" onclick="">Tilbage</button>
@@ -105,7 +129,7 @@ if (!isset($_SESSION['loggedin'])) {
 
 
     <footer class="footer">
-        <p class="footerLeft whiteText">Kontakt </br> Seebladsgade 2 </br> 5100 Odense C </br> Tlf. 54 19 54 12 </p>
+        <p class="footerLeft whiteText">Kontakt <br> Seebladsgade 2 <br> 5100 Odense C <br> Tlf. 54 19 54 12 </p>
         <p class="footerRight whiteText"> &copy; 2019 Adaptics</p>
     </footer>
 </body>

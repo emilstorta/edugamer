@@ -26,15 +26,15 @@ if (!isset($_SESSION['loggedin'])) {
 
 <!--Navigation -->
 
-    <article id="pageContainer">
+<article id="pageContainer">
     <article id="contentWrap">
-    <header class="headerPages">
-        <article class="headerGrid">
-            <article class="navCell1">
-                <a href="home.php">
-                    <img src="pictures/Logo.png" alt="Adaptics Logo" class="logo">
-                </a>
-            </article>
+        <header class="headerPages">
+            <article class="headerGrid">
+                <article class="navCell1">
+                    <a href="home.php">
+                        <img src="pictures/Logo.png" alt="Adaptics Logo" class="logo">
+                    </a>
+                </article>
             <article class="navCell2">
                 <a href="home.php">
                     <p class="whiteText">Forside</p>
@@ -177,7 +177,8 @@ if (!isset($_SESSION['loggedin'])) {
     </section>
 
 
-
+    </article>
+</article>
 
 
 <!-- Footer -->

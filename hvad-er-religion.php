@@ -24,6 +24,7 @@ if (!isset($_SESSION['loggedin'])) {
 </head>
 <body>
 <!-- Navigation -->
+
     <header class="headerPages">
         <article class="headerGrid">
             <article class="navCell1">
@@ -92,6 +93,7 @@ if (!isset($_SESSION['loggedin'])) {
                     <p>Denne tekst går i dybten med de grunde, der får mennesket til at søge svar i religionen</p>
                 </article>
             </a>
+
         </article>
 
         <article class="mainCell2">
@@ -140,6 +142,7 @@ if (!isset($_SESSION['loggedin'])) {
         </article>
     </section>
 <!-- Footer -->
+
     <footer class="footer">
         <p class="footerLeft whiteText">Kontakt <br> Seebladsgade 2 <br> 5100 Odense C  <br> Tlf. 54 19 54 12 </p>
         <p class="footerRight whiteText"> &copy; 2019 Adaptics</p>

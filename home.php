@@ -23,7 +23,11 @@ if (!isset($_SESSION['loggedin'])) {
 </head>
 
 <body>
+
 <!--Navigation -->
+
+    <article id="pageContainer">
+    <article id="contentWrap">
     <header class="headerPages">
         <article class="headerGrid">
             <article class="navCell1">
@@ -171,8 +175,8 @@ if (!isset($_SESSION['loggedin'])) {
             </article>
         </article>
     </section>
-
-
+</article>
+</article>
 
 
 

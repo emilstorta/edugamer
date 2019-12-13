@@ -23,6 +23,8 @@ if (!isset($_SESSION['loggedin'])) {
 </head>
 
 <body>
+
+<!-- Navigationsbar -->
     <header class="headerPages">
         <article class="headerGrid">
             <article class="navCell1">
@@ -57,7 +59,7 @@ if (!isset($_SESSION['loggedin'])) {
                 </a>
             </article>
     </header>
-
+<!-- Navigationsbar - Mobil -->
     <article class="mobile-menu">
         <a href="home.php">
             <img class="mobileLogo" src="pictures/Logo.png" alt="Adaptics logo">
@@ -72,13 +74,13 @@ if (!isset($_SESSION['loggedin'])) {
             <li><a href="logout.php">Log ud</a></li>
         </ul>
     </article>
-    
+ <!-- Breadcrumbs -->   
     <ul class="breadcrumb">
         <li><a href="home.php" >Forside</a></li>
         <li><a href="milestones.php" >Milepæle</a></li>
         <li>Achievements</li>
     </ul>
-
+<!-- Milepæle grid -->
     <section class="allmileGrid">
         <article class="mileCell1">
             <h3>Alle milepæle</h3><br>
@@ -113,9 +115,9 @@ if (!isset($_SESSION['loggedin'])) {
                 <article class="innerAch"><img src="pictures/locked.png" alt="oplåst" class="achImg">
                     <p class="allachText">Låst</p>
                 </article>
-
             </article>
         </article>
+        <!-- Avatar -->
         <article class="mileCell1">
             <h3>Din Avatar</h3><br>
                 <article class="allmileAvatar">
@@ -127,7 +129,7 @@ if (!isset($_SESSION['loggedin'])) {
         </a>
     </section>
 
-
+<!-- Footer -->
     <footer class="footer">
         <p class="footerLeft whiteText">Kontakt <br> Seebladsgade 2 <br> 5100 Odense C <br> Tlf. 54 19 54 12 </p>
         <p class="footerRight whiteText"> &copy; 2019 Adaptics</p>
